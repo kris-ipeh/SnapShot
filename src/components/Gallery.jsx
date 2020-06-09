@@ -1,6 +1,7 @@
 import React from "react";
 import NoImages from "./NoImages";
 import Image from "./Image";
+
 const Gallery = props => {
   const results = props.data;
   let images;
